@@ -124,8 +124,8 @@ p {
     .img-logo {
         width: 354px;
         height: 317px;
-        margin: 80px 20px 20px 20px;
-
+        margin: 40px auto;
+        display: block;
 
     }
 
@@ -134,7 +134,6 @@ p {
         font-size: 50px;
         font-weight: 900;
         line-height: 60.95px;
-        text-align: left;
 
     }
 
@@ -143,11 +142,22 @@ p {
         font-size: 30px;
         font-weight: 500;
         line-height: 36.57px;
-        text-align: left;
 
     }
     
     .explore-btn {
-        margin-top: 20px;
+       margin: 20px auto;
+       display: block;
+    }
+
+    main {
+        display: inline;
+        text-align: center;
+    }
+
+    section { 
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
     }
 }
